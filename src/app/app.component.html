@@ -1,3 +1,20 @@
 <h1>{{title}}</h1>
-<app-heroes></app-heroes>
 
+<nav>
+	<a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/heroes">Heroes</a>
+</nav>
+
+<router-outlet></router-outlet>
+<app-messages></app-messages>
+
+<!--
+	<router-outlet> tells the router where to display routed views.
+	<app-messages> displays the generated MessagesComponent
+
+AppModule imports AppRoutingModule which exported RouterModule.
+
+The routerLink is the selector for the RouterLink directive that 
+turns user clicks into router navigations.
+ It's another of the public directives in the RouterModule.
+-->

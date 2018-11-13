@@ -4,5 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## To do
 
-Complete tutorial. Change data. 
-
+Complete tutorial.\
+Comment code.&nbsp;
+Change data from heroes to something more useful.&nbsp;
+Change css to improve look of app.
