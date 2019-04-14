@@ -37,7 +37,9 @@ This is a data-driven app that stores and displays a list of heroes, edits their
 
 * [Angular v7.2.13](https://angular.io/) & [Angular CLI v7.3.8](https://cli.angular.io/).
 
-* [Angular in-memory-web-api](https://www.npmjs.com/package/angular-in-memory-web-api) an in-memory web api for Angular demos and tests that emulates CRUD operations over a RESTy API. For dev only.
+* [In-memory-web-api](https://www.npmjs.com/package/angular-in-memory-web-api) for Angular demos and tests that emulate CRUD operations over a RESTy API. For dev only.
+
+* [Reactive Extensions for Javascript -RxJS](https://angular.io/guide/rx-library) library used for reactive programming using the observable type.
 
 ## Setup
 
@@ -100,9 +102,9 @@ export class InMemoryDataService implements InMemoryDbService {
 
 ## Status & To-Do List
 
-* Status:
+* Status: Working app with in-memory database storage of heroes.
 
-* To-Do: add theme colors and change data to another subject.
+* To-Do: add theme colors and functionality.
 
 ## Inspiration
 
