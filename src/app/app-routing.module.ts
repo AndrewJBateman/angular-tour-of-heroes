@@ -1,5 +1,15 @@
+/*Comments
+configures the router at the application's root level.
+The forRoot() method supplies the service providers and directives
+needed for routing, and performs the initial navigation based on
+the current browser URL.
+
+**The colon (:) in the 'detail/:id' path indicates that :id is a placeholder for a specific hero id.
+*/
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+
 import { HeroesComponent }      from './heroes/heroes.component';
 import { DashboardComponent }   from './dashboard/dashboard.component';
 import { HeroDetailComponent }  from './hero-detail/hero-detail.component';
@@ -18,12 +28,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-
-/*Comments
-configures the router at the application's root level. 
-The forRoot() method supplies the service providers and directives 
-needed for routing, and performs the initial navigation based on 
-the current browser URL. 
-
-**The colon (:) in the 'detail/:id' path indicates that :id is a placeholder for a specific hero id.
-*/
