@@ -35,7 +35,9 @@ This is a data-driven app that stores and displays a list of heroes, edits their
 
 ## Technologies
 
-* [Angular v7.2.13](https://angular.io/) & [Angular CLI v7.3.8](https://cli.angular.io/).
+* [Angular v8.0.0](https://angular.io/)
+
+* [Angular CLI v8.0.1](https://cli.angular.io/).
 
 * [In-memory-web-api](https://www.npmjs.com/package/angular-in-memory-web-api) for Angular demos and tests that emulate CRUD operations over a RESTy API. For dev only.
 
@@ -114,4 +116,4 @@ export class InMemoryDataService implements InMemoryDbService {
 
 ## Contact
 
-Created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
