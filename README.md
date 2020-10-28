@@ -1,10 +1,10 @@
-# Angular Tour of Heroes
+# :zap: Angular Tour of Heroes
 
-This is a data-driven app that stores and displays a list of heroes, edits their details and allows navigation of the data using different views.
+* This is a data-driven app that stores and displays a list of heroes, edits their details and allows navigation of the data using different views.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
-## Table of contents
+## :page_facing_up: Table of contents
 
 * [General info](#general-info)
 * [Screenshots](#screenshots)
@@ -15,7 +15,7 @@ This is a data-driven app that stores and displays a list of heroes, edits their
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
-## General info
+## :books: General info
 
 * This app does the following:
 
@@ -29,25 +29,22 @@ This is a data-driven app that stores and displays a list of heroes, edits their
 8. Creates a shared service to assemble the heroes.
 9. Uses routing to navigate among different views and their components.
 
-## Screenshots
+## :camera: Screenshots
 
 ![Example screenshot](./img/dashboard.png).
 
-## Technologies
+## :signal_strength: Technologies
 
-* [Angular v8.0.0](https://angular.io/)
-
-* [Angular CLI v8.0.1](https://cli.angular.io/).
-
+* [Angular v8](https://angular.io/)
+* [Angular CLI v81](https://cli.angular.io/).
 * [In-memory-web-api](https://www.npmjs.com/package/angular-in-memory-web-api) for Angular demos and tests that emulate CRUD operations over a RESTy API. For dev only.
-
 * [Reactive Extensions for Javascript -RxJS](https://angular.io/guide/rx-library) library used for reactive programming using the observable type.
 
-## Setup
+## :floppy_disk: Setup
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code Examples
+## :computer: Code Examples
 
 * _in-memory-data-service_ file
 
@@ -94,26 +91,22 @@ export class InMemoryDataService implements InMemoryDbService {
 
 ```
 
-## Features
+## :cool: Features
 
 * CRUD operations: heroes can be created, read, updated (name only) and deleted from a 'My Heroes' list.
-
 * Clicking on a hero routes to a hero details page.
-
 * A 'Messages' list records fetching and deleting of heroes from the My Heroes list.
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
 * Status: Working app with in-memory database storage of heroes.
-
 * To-Do: add theme colors and functionality.
 
-## Inspiration
+## :clap: Inspiration
 
 * [Angular Tutorial: Tour of Heroes](https://angular.io/tutorial).
-
 * [Techie Diaries´s Angular In-Memory Web API Tutorial](https://www.techiediaries.com/angular-inmemory-web-api/)
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
