@@ -22,7 +22,7 @@
     ],
     "import-spacing": true,
     "indent": [
-      true,
+      false,
       "tabs",
       2
     ],
@@ -86,7 +86,7 @@
     ],
     "prefer-const": true,
     "quotemark": [
-      true,
+      false,
       "single"
     ],
     "radix": true,

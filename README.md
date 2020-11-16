@@ -1,19 +1,23 @@
 # :zap: Angular Tour of Heroes
 
 * This is a data-driven app that stores and displays a list of heroes, edits their details and allows navigation of the data using different views.
+* Tutorial code from [Angular](https://angular.io) - see [:clap: Inspiration](#clap-inspiration) below.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
 ## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [:zap: Angular Tour of Heroes](#zap-angular-tour-of-heroes)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
 
@@ -35,14 +39,15 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v8](https://angular.io/)
-* [Angular CLI v81](https://cli.angular.io/).
+* [Angular v11](https://angular.io/)
+* [Angular CLI v11](https://cli.angular.io/).
 * [In-memory-web-api](https://www.npmjs.com/package/angular-in-memory-web-api) for Angular demos and tests that emulate CRUD operations over a RESTy API. For dev only.
 * [Reactive Extensions for Javascript -RxJS](https://angular.io/guide/rx-library) library used for reactive programming using the observable type.
 
 ## :floppy_disk: Setup
 
 * Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Run `ng lint` to run TSLint (note - indent and use of commas made false in tslint.json). Currently passing.
 
 ## :computer: Code Examples
 

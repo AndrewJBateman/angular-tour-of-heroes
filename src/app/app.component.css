@@ -17,7 +17,8 @@ nav a {
   background-color: #eee;
   border-radius: 4px;
 }
-nav a:visited, a:link {
+nav a:visited,
+a:link {
   color: #607d8b;
 }
 nav a:hover {
