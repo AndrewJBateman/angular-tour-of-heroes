@@ -45,8 +45,8 @@
 ## :signal_strength: Technologies
 
 * [Angular v12](https://angular.io/)
-* [In-memory-web-api](https://www.npmjs.com/package/angular-in-memory-web-api) for Angular demos and tests that emulate CRUD operations over a REST API. For dev only.
-* [Reactive Extensions for Javascript -RxJS](https://angular.io/guide/rx-library) library used for reactive programming using the observable type.
+* [Angular In-memory-web-api v0.11.0](https://www.npmjs.com/package/angular-in-memory-web-api) for Angular demos and tests that emulate CRUD operations over a RESTy API. For dev only.
+* [Reactive Extensions for Javascript -RxJS v6](https://angular.io/guide/rx-library) library used for reactive programming using the observable type. Latest v7 not used due to incompatibility with Angular v12.
 
 ## :floppy_disk: Setup
 
