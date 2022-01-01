@@ -44,17 +44,16 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v12](https://angular.io/)
-* [Angular In-memory-web-api v0.11.0](https://www.npmjs.com/package/angular-in-memory-web-api) for Angular demos and tests that emulate CRUD operations over a RESTy API. For dev only.
-* [Reactive Extensions for Javascript -RxJS v6](https://angular.io/guide/rx-library) library used for reactive programming using the observable type. Latest v7 not used due to incompatibility with Angular v12.
+* [Angular v13](https://angular.io/)
+* [Angular In-memory-web-api v0.13.0](https://www.npmjs.com/package/angular-in-memory-web-api) for Angular demos and tests that emulate CRUD operations over a RESTy API. For dev only.
+* [Reactive Extensions for Javascript -RxJS v7](https://angular.io/guide/rx-library) library used for reactive programming using the observable type.
 
 ## :floppy_disk: Setup
 
 * Run `ng serve` for a dev server.
 * Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-* Run `ng lint` to run TSLint (note - indent and use of commas made false in tslint.json). Currently passing.
 
-## :computer: Code Examples
+## :computer: Code Examples - from Angular Tour of Heroes code
 
 * _in-memory-data-service_ file
 

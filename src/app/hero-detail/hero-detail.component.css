@@ -13,6 +13,7 @@ input {
 }
 button {
   margin-top: 20px;
+  margin-right: 4px;
   font-family: Arial;
   background-color: #eee;
   border: none;
